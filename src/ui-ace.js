@@ -34,7 +34,11 @@ angular.module('ui.ace', [])
       // or minified source
       if (angular.isDefined(opts.workerPath)) {
         var config = window.ace.require('ace/config');
-        config.set('workerPath', opts.workerPath);
+        config.set('basePath', opts.workerPath);
+      }
+      if (angular.isDefined(opts.basePath)) {
+        var config = window.ace.require('ace/config');
+        config.set('basePath', opts.basePath);
       }
       // ace requires loading
       if (angular.isDefined(opts.require)) {
