@@ -1,3 +1,11 @@
+<a name="0.2.4"></a>
+### 0.2.4 (2017-05-05)
+
+
+#### Bug Fixes
+
+* workerPath/basePath configuration parameter mismatch
+
 <a name="0.2.3"></a>
 ### 0.2.3 (2015-01-29)
 
